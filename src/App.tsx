@@ -1,5 +1,5 @@
 import { useRoutes } from "react-router-dom"
-import routes from "../src/route"
+import routes from "../src/route.tsx"
 
 
 export default function App() {
