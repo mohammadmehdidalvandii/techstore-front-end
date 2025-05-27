@@ -4,10 +4,12 @@
 
 @font-face {
     font-family: rubikBlack;
+    font-weight: 900;
     src: url('../assets/font/Rubik-Black.ttf') format(ttf);
 }
 @font-face {
     font-family: rubikBold;
+    font-weight: 700;
     src: url('../assets/font/Rubik-ExtraBold.ttf') format(ttf);
 }
 @font-face {
@@ -19,6 +21,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: var(--font-rubikMedium);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    position: relative;
+    background-color: var(--light-bg);
 }
 :root{
     --primary-color:#3a0ca3;
@@ -36,12 +46,6 @@
     --font-rubikBlack: rubikBlack;
     --font-rubikBold : rubikBold;
     --font-rubikMedium : rubikMedium;
-}
-body{
-    font-family: var(--font-rubikMedium);
-    color: var(--text-color);
-    position: relative;
-    background-color: var(--light-bg);
 }
 
 /* container */

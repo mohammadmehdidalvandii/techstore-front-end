@@ -1,0 +1,46 @@
+.navbar{
+    display: block;
+    width: 100%;
+    background-color: rgba(255,255,255,0.95);
+    padding-block: 0.3rem   ;
+}
+.navbar .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+}
+.navbar .logo{
+    display: block;
+    font-family: var(--font-rubikBlack) ;
+    font-weight: 900;
+    font-size: 2rem !important ;
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar .items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-style: var(--font-rubikBold);
+    font-weight: 700;
+}
+
+.navbar .nav_link{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem !important;
+    transition: 0.4s linear color;
+}
+.navbar .nav_link:hover{
+    color: var(--secondary-color);
+}
+.navbar .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
