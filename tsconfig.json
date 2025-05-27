@@ -8,6 +8,7 @@
     // Import
     "baseUrl": "src",
      "paths": {
+      "@page/*":["page/*"],
       "@components/*": ["components/*"],
       "@components/module/*": ["components/module/*"],
       "@components/template/*": ["components/template/*"],
