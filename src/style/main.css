@@ -1,0 +1,45 @@
+/* Reset css */
+@import url('./reset.css');
+/* Font Style */;
+
+@font-face {
+    font-family: rubikBlack;
+    src: url('../assets/font/Rubik-Black.ttf') format(ttf);
+}
+@font-face {
+    font-family: rubikBold;
+    src: url('../assets/font/Rubik-ExtraBold.ttf') format(ttf);
+}
+@font-face {
+    font-family: rubikMedium;
+    src: url('../assets/font/Rubik-Medium.ttf') format(ttf);
+}
+/* Global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#3a0ca3;
+    --secondary-color:#ef233c;
+    --accent-color:#ffd60a;
+    --text-color:#2b2d42;
+    --light-bg:#f8f9fa;
+    --white:#ffffff;
+    --gray:#8d99ae;
+    --shadow:#0 4px 20px rgba(0,0,0,0.1);
+    --gradient: linear-gradient(135deg , #2b2d42, #3a0ca3);
+    --card-gradient: linear-gradient(135deg, #ffffff , #f8f9fa);
+    --hover-gradient: linear-gradient(135deg , #ef233c , #d90429);
+    
+    --font-rubikBlack: rubikBlack;
+    --font-rubikBold : rubikBold;
+    --font-rubikMedium : rubikMedium;
+}
+body{
+    font-family: var(--font-rubikMedium);
+    color: var(--text-color);
+    position: relative;
+    background-color: var(--light-bg);
+}
