@@ -93,6 +93,27 @@ body{
     background: rgba(255,255,255,0.1    );
 }
 
+/* main_title */
+.main_title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-weight: bolder;
+    font-size: 2rem;
+    color: var(--text-color);
+    text-align: center;
+}
+.main_title::after{
+    content: "";
+    display: block;
+    text-align: center;
+    width: 5rem;
+    height: 0.2rem;
+    background-color:  var(--secondary-color);
+    border-radius:0.5rem;
+    position: absolute;
+    left: 46%;
+}
+
 /* Responsive  Utilities*/
 
 @media (max-width : 1360px) {

@@ -1,0 +1,49 @@
+.categories{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.categories .items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px ,1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.categories .item{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.4s linear;
+    user-select: none;
+}
+.categories .item:hover{
+    transform: translateY(-10px);
+    background-color: #efefef;
+    box-shadow: 0 10px 20px #efefef;
+}
+.categories .item span{
+    font-size: 3rem;
+    color: var(--secondary-color);
+    transition: all 0.4s linear;
+}
+.categories .item:hover span{
+    font-size: 3.2rem;
+}
+.categories .item .text{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-weight: bolder ;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+.categories .item .paraph{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
