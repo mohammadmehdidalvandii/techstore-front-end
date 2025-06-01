@@ -1,0 +1,46 @@
+.trust{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.trust .trust_cart{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.trust_cart .item{
+    display: block;
+    user-select: none;
+    text-align: center;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px #efefef;
+    transition: all 0.4s linear;
+}
+.trust_cart .item:hover{
+    transform: translateY(-20px);
+}
+.trust_cart .item .icon{
+    display: block;
+    font-size: 3rem;
+    color: var(--secondary-color);
+    transition: all 0.4s linear;
+}
+.trust_cart .item:hover .icon{
+    transform: scale(1.2);
+}
+.trust_cart .item .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--text-color);
+}
+.trust_cart .item .text{
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gray);
+}
