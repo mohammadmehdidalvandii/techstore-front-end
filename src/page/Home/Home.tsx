@@ -7,6 +7,7 @@ import SpecialDeals from '@components/template/home/SpecialDeals/SpecialDeals'
 import Trust from '@components/template/home/Trust/trust'
 import Products from '@components/template/home/Products/Products'
 import Testimonials from '@components/template/home/Testimonials/Testimonials'
+import Brands from '@components/template/home/Brands/Brands'
 
 const Home:React.FC = ()=>{
   return (
@@ -19,6 +20,7 @@ const Home:React.FC = ()=>{
     <Trust/>
     <Products/>
     <Testimonials/>
+    <Brands/>
     <br /><br /><br /><br /><br />
     </>
   )

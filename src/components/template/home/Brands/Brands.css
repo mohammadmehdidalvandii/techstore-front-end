@@ -1,0 +1,19 @@
+.brands{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.brands_items{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   /* gap: 2rem; */
+   margin-top: 3rem;
+}
+.brands_items .text{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2rem;
+    color: var(--text-color);
+}
