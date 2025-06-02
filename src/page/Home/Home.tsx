@@ -10,6 +10,7 @@ import Testimonials from '@components/template/home/Testimonials/Testimonials'
 import Brands from '@components/template/home/Brands/Brands'
 import Articles from '@components/template/home/Articles/Articles'
 import Newsletter from '@components/module/Newsletter/Newsletter'
+import Footer from '@components/module/Footer/Footer'
 
 const Home:React.FC = ()=>{
   return (
@@ -25,7 +26,7 @@ const Home:React.FC = ()=>{
     <Brands/>
     <Articles/>
     <Newsletter/>
-    <br /><br /><br /><br /><br />
+    <Footer/>
     </>
   )
 }
