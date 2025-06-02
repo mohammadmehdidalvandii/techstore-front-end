@@ -1,0 +1,35 @@
+.testimonials{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.testimonials_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.commentCart{
+    display: block;
+    padding: 1rem;
+    background-color: var(--white);
+    box-shadow: 0 15px 10px #efefef;
+    border-radius: 1rem;
+}
+.commentCart .icon{
+    display: block;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+.commentCart .text{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-block: 1rem  ;
+}
+.commentCart .name{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
