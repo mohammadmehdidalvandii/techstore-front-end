@@ -9,25 +9,25 @@
     gap: 2rem;
     margin-top: 3rem;
 }
-.commentCart{
+.testimonials_items .commentCart{
     display: block;
     padding: 1rem;
     background-color: var(--white);
     box-shadow: 0 15px 10px #efefef;
     border-radius: 1rem;
 }
-.commentCart .icon{
+.testimonials_items .commentCart .icon{
     display: block;
     font-size: 2rem;
     color: var(--secondary-color);
 }
-.commentCart .text{
+.testimonials_items .commentCart .text{
     font-size: 0.9rem;
     font-weight: 700;
     color: var(--text-color);
     margin-block: 1rem  ;
 }
-.commentCart .name{
+.testimonials_items .commentCart .name{
     display: block;
     font-family: var(--font-rubikBlack);
     font-size: 1.5rem;
