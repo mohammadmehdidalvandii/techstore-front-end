@@ -5,6 +5,7 @@ import Categories from '@components/template/home/Categories/Categories'
 import FeaturedProducts from '@components/template/home/FeaturedProducts/FeaturedProducts'
 import SpecialDeals from '@components/template/home/SpecialDeals/SpecialDeals'
 import Trust from '@components/template/home/Trust/trust'
+import Products from '@components/template/home/Products/Products'
 
 const Home:React.FC = ()=>{
   return (
@@ -15,6 +16,7 @@ const Home:React.FC = ()=>{
     <FeaturedProducts/>
     <SpecialDeals/>
     <Trust/>
+    <Products/>
     <br /><br /><br /><br /><br />
     </>
   )
