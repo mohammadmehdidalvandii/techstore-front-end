@@ -17,10 +17,10 @@ const Navbar:React.FC = ()=>{
                 <NavLink to='/' className='logo'>TechStore</NavLink>
                 <ul className="items">
                     <li>
-                        <NavLink to='' className='nav_link'>Home</NavLink>
+                        <NavLink to='/' className='nav_link'>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to='' className='nav_link'>Products</NavLink>
+                        <NavLink to='/Products' className='nav_link'>Products</NavLink>
                     </li>
                     <li>
                         <NavLink to='' className='nav_link'>Categories</NavLink>
@@ -61,10 +61,10 @@ const Navbar:React.FC = ()=>{
                 </div>
                   <ul className="items">
                     <li>
-                        <NavLink to='' className='nav_link'>Home</NavLink>
+                        <NavLink to='/' className='nav_link'>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to='' className='nav_link'>Products</NavLink>
+                        <NavLink to='/Products' className='nav_link'>Products</NavLink>
                     </li>
                     <li>
                         <NavLink to='' className='nav_link'>Categories</NavLink>
