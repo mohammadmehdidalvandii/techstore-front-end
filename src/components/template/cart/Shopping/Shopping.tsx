@@ -20,7 +20,28 @@ const Shopping:React.FC = ()=>{
                    <ShoppingCart/>
                    <ShoppingCart/>
                 </div>
-                <div className="box">items</div>
+                <div className="box order">
+                    <h6 className="title">Order Summary</h6>
+                    <ul className="shoppingCart_order">
+                        <li className="item">
+                            <span className="title">Subtotal</span>
+                            <span className="text">$3,747.00</span>
+                        </li>
+                        <li className="item">
+                            <span className="title">Shipping</span>
+                            <span className="text">Free</span>
+                        </li>
+                        <li className="item">
+                            <span className="title">Tax</span>
+                            <span className="text">$299.76</span>
+                        </li>
+                    </ul>
+                    <div className="cal_order">
+                        <span className="title">Total</span>
+                        <span className="text">$4,046.76</span>
+                    </div>
+                    <button className="btn primary btn_checkout">Proceed to Checkout</button>
+                </div>
             </div>
         </div>
    </section>
