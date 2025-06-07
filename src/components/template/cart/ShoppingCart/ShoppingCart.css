@@ -73,3 +73,17 @@
         color: var(--secondary-color);
     }
 }
+
+/* Responsive */
+@media (max-width : 992px) {
+    .shoppingCart{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width : 768px) {
+     .shoppingCart{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
