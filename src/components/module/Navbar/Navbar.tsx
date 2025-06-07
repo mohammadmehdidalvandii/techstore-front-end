@@ -34,14 +34,14 @@ const Navbar:React.FC = ()=>{
                 </ul>
                 <div className='menu'>
                     <NavLink to='/' className='nav_link'><FaSearch/></NavLink>
-                    <NavLink to='/' className='nav_link'><FaShoppingCart /></NavLink>
+                    <NavLink to='/Cart' className='nav_link'><FaShoppingCart /></NavLink>
                     <NavLink to='/' className='nav_link'><FaUser/></NavLink>
                 </div>
             </div>
             <div className="mobile">
                 <div className='menu'>
                     <NavLink to='/' className='nav_link'><FaSearch/></NavLink>
-                    <NavLink to='/' className='nav_link'><FaShoppingCart /></NavLink>
+                    <NavLink to='/Cart' className='nav_link'><FaShoppingCart /></NavLink>
                     <NavLink to='/' className='nav_link'><FaUser/></NavLink>
                 </div>
                 <NavLink to='/' className='logo'>TechStore</NavLink>
@@ -56,7 +56,7 @@ const Navbar:React.FC = ()=>{
                     <div className="mobile_menu">
                     <div className='menu'>
                     <NavLink to='/' className='nav_link'><FaSearch/></NavLink>
-                    <NavLink to='/' className='nav_link'><FaShoppingCart /></NavLink>
+                    <NavLink to='/Cart' className='nav_link'><FaShoppingCart /></NavLink>
                     <NavLink to='/' className='nav_link'><FaUser/></NavLink>
                 </div>
                   <ul className="items">
