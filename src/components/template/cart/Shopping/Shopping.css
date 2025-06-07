@@ -1,0 +1,38 @@
+.shopping{
+    display: block;
+    width: 100%;
+    margin-block: 5rem;
+}
+.grid_shopping{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem   ;
+}
+.grid_shopping .box{
+    display: block;
+    padding: 0.5rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0 10px 8px #efefef;
+}
+.shopping_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--gray);
+}
+.shopping_content  .title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2rem;
+    color: var(--text-color);
+}
+.shopping_btn{
+    display: flex;
+    align-items: center;
+    width: 150px !important;
+}
+.shopping_btn span:first-child{
+    font-size: 1.5rem;
+}
