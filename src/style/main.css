@@ -114,6 +114,58 @@ body{
     left: 46%;
 }
 
+/* Form Style */
+.form{
+    display: block;
+    width: 100%;
+}
+.group_form{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+.label_form{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.input_form{
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--light-bg);
+    outline: none;
+    border: 1px solid var(--gray);
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-inline: 0.4rem;
+}
+.input_form:focus{
+    border-color: var(--secondary-color);
+}
+.text_form{
+       display: block;
+    width: 100%;
+    height: 8rem;
+    background-color: var(--light-bg);
+    outline: none;
+    border: 1px solid var(--gray);
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-inline: 0.4rem; 
+    padding-top: 0.4rem;
+}
+.text_form:focus{
+    border-color: var(--secondary-color);
+}
+.form button{
+    width: 160px;
+    margin-top: 2rem;
+}
 /* Responsive  Utilities*/
 
 @media (max-width : 1360px) {
