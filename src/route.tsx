@@ -3,13 +3,15 @@ import Products from "@page/Products/Products";
 import Contact from "@page/Contact/Contact";
 import Cart from "@page/Cart/Cart";
 import Login from "@page/Login/Login";
+import Register from "@page/Register/Register";
 
 const routes = [
     {path:'/' , element:<Home/>},
     {path:'/Products' , element:<Products/>},
     {path:'/Contact' , element:<Contact/>},
     {path:'/Cart' , element:<Cart/>},
-    {path:'/Login' , element:<Login/>},
+    {path:'/Login' , element:<Login/>}, 
+    {path:'/Register' , element:<Register/>}, 
 ]
 
 export default routes

@@ -21,7 +21,7 @@ const Signin:React.FC = ()=>{
                 <NavLink to='/' className='signin_forget'>Forgot Password?</NavLink>
                 <button className="btn primary btn_signin">Signin</button>
                 <p className='form_account'>Don't have an account?
-                    <NavLink to='/' className='link_signup'>Sign Up</NavLink>
+                    <NavLink to='/Register' className='link_signup'>Sign Up</NavLink>
                 </p>
         </form>
     </section>
