@@ -35,7 +35,7 @@ const Navbar:React.FC = ()=>{
                 <div className='menu'>
                     <NavLink to='/' className='nav_link'><FaSearch/></NavLink>
                     <NavLink to='/Cart' className='nav_link'><FaShoppingCart /></NavLink>
-                    <NavLink to='/' className='nav_link'><FaUser/></NavLink>
+                    <NavLink to='/Login' className='nav_link'><FaUser/></NavLink>
                 </div>
             </div>
             <div className="mobile">
