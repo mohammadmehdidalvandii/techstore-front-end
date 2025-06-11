@@ -1,0 +1,62 @@
+.team{
+    display: block;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.team .team_title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2rem;
+    text-align: center;
+}
+.team .team_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.team_grid .team_card{
+    display: block;
+    background-color: var(--white);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.team_card .img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.team_card .name{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: var(--font-rubikBold);
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+.team_card .job{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-rubikBold);
+    font-size: 1rem;
+    color: var(--gray);
+}
+.team_card .media{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 2rem;
+}
+.team_card .media .link{
+    display: block;
+    width: 20px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: all 0.4s linear;
+    &:hover{
+        transform: scale(1.2);
+        color: var(--secondary-color);
+    }
+}
