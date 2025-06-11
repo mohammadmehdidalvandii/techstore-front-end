@@ -31,6 +31,9 @@ const Navbar:React.FC = ()=>{
                     <li>
                         <NavLink to='/Contact' className='nav_link'>Contact</NavLink>
                     </li>
+                    <li>
+                        <NavLink to='/About' className='nav_link'>About</NavLink>
+                    </li>
                 </ul>
                 <div className='menu'>
                     <NavLink to='/' className='nav_link'><FaSearch/></NavLink>
@@ -74,6 +77,9 @@ const Navbar:React.FC = ()=>{
                     </li>
                     <li>
                         <NavLink to='/Contact' className='nav_link'>Contact</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to='/About' className='nav_link'>About</NavLink>
                     </li>
                 </ul>
                 </div>
