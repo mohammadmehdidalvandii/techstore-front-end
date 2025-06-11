@@ -1,0 +1,25 @@
+.story{
+    display: block;
+    width: 100%;
+}
+.story .content{
+    display: block;
+}
+.story .content h2{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2.5rem;
+}
+.story .content h2::after{
+    display: block;
+    content: "";
+    width: 4rem;
+    height: 0.2rem;
+    background-color: var(--secondary-color);
+}
+.story .content p{
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
