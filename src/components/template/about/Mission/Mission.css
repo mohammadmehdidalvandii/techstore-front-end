@@ -1,0 +1,42 @@
+.mission{
+    display: block;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.mission .mission_title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2.5rem;
+    text-align: center;
+}
+.mission .mission_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(150px ,1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.mission_grid .mission_card{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--white);
+    box-shadow: 0 20px 10px #efefef;
+    text-align: center;
+    border-radius: 1rem;
+}
+.mission_card .icon{
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+}
+.mission_card .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.5rem;
+}
+.mission_card .text{
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--gray);
+    margin-top: 0.5rem;
+}
