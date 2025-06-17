@@ -6,6 +6,7 @@ import Login from "@page/Login/Login";
 import Register from "@page/Register/Register";
 import About from "@page/About/About";
 import Deals from "@page/Deals/Deals";
+import Categories from "@page/Categories/Categories";
 
 const routes = [
     {path:'/' , element:<Home/>},
@@ -16,6 +17,7 @@ const routes = [
     {path:'/Register' , element:<Register/>}, 
     {path:'/About' , element:<About/>}, 
     {path:'/Deals' , element:<Deals/>}, 
+    {path:'/Categories' , element:<Categories/>}, 
 ]
 
 export default routes
