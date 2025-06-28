@@ -1,0 +1,27 @@
+.brands{
+    display: block;
+    width: 100%;
+    margin-block: 5rem;
+}
+.popular_brands{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px ,1fr));
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.brands_item{
+       display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--white);
+    box-shadow: 0 0 20px 10px #efefef;
+    border-radius: 0.5rem;
+}
+.brands_item .icon{
+    font-size: 3rem;
+}
+.brands_item .text{
+    font-family: var(--rubik-Black);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
