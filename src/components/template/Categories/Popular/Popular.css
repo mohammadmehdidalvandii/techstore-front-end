@@ -1,0 +1,42 @@
+.popular{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.popular_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(150px , 1fr));
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.popular_item{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--white);
+    box-shadow: 0 0 20px 10px #efefef;
+    border-radius: 0.5rem;
+    transition: all 0.4s linear;
+}
+.popular_item:hover{
+    transform: translateY(-10px);
+}
+.popular_item .icon{
+    display: block;
+    font-size: 3rem;
+    color: var(--secondary-color);
+}
+.popular_item .title{
+    display: block;
+    font-family: var(--rubik-black);
+    font-size: 1rem;
+    font-weight: 900;
+}
+.popular_item .text{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    color: var(--gray);
+}
