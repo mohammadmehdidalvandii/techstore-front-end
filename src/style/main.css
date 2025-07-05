@@ -186,6 +186,8 @@ body{
 }
 .userPanel_nav{
     flex-basis: 25%;
+    position: sticky;
+    top: 2rem;
 }
 .userPanel_content{
     flex-basis: 75%;
