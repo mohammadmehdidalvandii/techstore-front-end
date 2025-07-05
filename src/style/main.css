@@ -166,6 +166,31 @@ body{
     width: 160px;
     margin-top: 2rem;
 }
+
+.box{
+    display: block;
+    width: 100%;
+    background-color: var(--white);
+    padding: 0.5rem;
+    box-shadow: 0 0 20px 10px #efefef;
+    border-radius: 0.5rem;
+}
+
+/* grid system userPanel */
+.container_userPanel{
+    display: flex;
+    width: 100%;
+    margin-block: 5rem;
+    flex-grow: 1;
+    gap: 1rem;
+}
+.userPanel_nav{
+    flex-basis: 25%;
+}
+.userPanel_content{
+    flex-basis: 75%;
+}
+
 /* Responsive  Utilities*/
 
 @media (max-width : 1360px) {

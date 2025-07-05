@@ -6,6 +6,10 @@ const UserPanel:React.FC = ()=>{
   return (
     <>
     <Navbar/>
+     <div className="container_userPanel container">
+        <div className="userPanel_nav box"></div>
+        <div className="userPanel_content box"></div>
+     </div>
     <Footer/>
     </>
   )
