@@ -12,7 +12,7 @@ const UserPanelNav:React.FC = ()=>{
         </div>
         <ul className="userPanel_menu">
             <li>
-                <Link to='/UserPanel/Overview' className='link active'>Overview</Link>
+                <Link to='/UserPanel' className='link active'>Overview</Link>
             </li>
             <li>
                 <Link to='/UserPanel/Orders' className='link'>Orders</Link>

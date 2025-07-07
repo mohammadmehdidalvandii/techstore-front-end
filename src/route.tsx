@@ -8,6 +8,7 @@ import About from "@page/About/About";
 import Deals from "@page/Deals/Deals";
 import Categories from "@page/Categories/Categories";
 import UserPanel from "@page/User-panel/User-panel";
+import Orders from "@page/User-panel/Orders";
 
 const routes = [
     {path:'/' , element:<Home/>},
@@ -20,6 +21,7 @@ const routes = [
     {path:'/Deals' , element:<Deals/>}, 
     {path:'/Categories' , element:<Categories/>}, 
     {path:'/UserPanel' , element:<UserPanel/>}, 
+    {path:'/UserPanel/Orders' , element:<Orders/>}, 
 ]
 
 export default routes
