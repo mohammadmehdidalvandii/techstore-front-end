@@ -193,6 +193,36 @@ body{
 .userPanel_content{
     flex-basis: 75%;
 }
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--gray);
+}
+
+th {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+td {
+    color: var(--text-color);
+}
+.btn_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.btn_wrapper .btn{
+    width: 100px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
 
 /* Responsive  Utilities*/
 

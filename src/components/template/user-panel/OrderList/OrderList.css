@@ -1,0 +1,11 @@
+.orderList{
+    display: block;
+    width: 100%;
+}
+.orderList .title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2rem;
+    font-weight: 900;
+}
+
