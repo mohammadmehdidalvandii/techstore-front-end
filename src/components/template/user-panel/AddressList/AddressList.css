@@ -1,0 +1,51 @@
+.addressList{
+    display: block;
+    width: 100%;
+}
+.addressList .titleAddress{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.addressList .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.addressList_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px ,1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.addressList_items .item{
+    display: block;
+    width: 100%;
+    background-color: var(--light-bg);
+    padding: 0.5rem;
+}
+
+.addressList_items .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.addressList_items .address{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gray);
+}
+.addressList_items .buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.addressList_items .btn{
+    width: 100px;
+    height: 2rem;
+}

@@ -1,5 +1,6 @@
 import Footer from '@components/module/Footer/Footer'
 import Navbar from '@components/module/Navbar/Navbar'
+import AddressList from '@components/template/user-panel/AddressList/AddressList'
 import UserPanelNav from '@components/template/user-panel/UserPanelNav/UserPanelNav'
 import React from 'react'
 
@@ -12,7 +13,7 @@ const Address:React.FC = ()=>{
             <UserPanelNav/>
         </div>
         <div className="userPanel_content box">
-            address
+            <AddressList/>
         </div>
      </div>
     <Footer/>
