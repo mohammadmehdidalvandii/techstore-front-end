@@ -10,6 +10,7 @@ import Categories from "@page/Categories/Categories";
 import UserPanel from "@page/User-panel/User-panel";
 import Orders from "@page/User-panel/Orders";
 import Wishlist from "@page/User-panel/Wishlist";
+import Address from "@page/User-panel/Address";
 
 const routes = [
     {path:'/' , element:<Home/>},
@@ -24,6 +25,7 @@ const routes = [
     {path:'/UserPanel' , element:<UserPanel/>}, 
     {path:'/UserPanel/Orders' , element:<Orders/>}, 
     {path:'/UserPanel/Wishlist' , element:<Wishlist/>}, 
+    {path:'/UserPanel/Address' , element:<Address/>}, 
 ]
 
 export default routes
