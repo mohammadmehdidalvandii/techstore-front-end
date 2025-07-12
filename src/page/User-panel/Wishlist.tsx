@@ -1,6 +1,7 @@
 import Footer from '@components/module/Footer/Footer'
 import Navbar from '@components/module/Navbar/Navbar'
 import UserPanelNav from '@components/template/user-panel/UserPanelNav/UserPanelNav'
+import WishlistUser from '@components/template/user-panel/WishlistUser/WishlistUser'
 import React from 'react'
 
 const Wishlist:React.FC = ()=>{
@@ -12,7 +13,7 @@ const Wishlist:React.FC = ()=>{
             <UserPanelNav/>
         </div>
         <div className="userPanel_content box">
-            user wishlist
+            <WishlistUser/>
         </div>
      </div>
     <Footer/>

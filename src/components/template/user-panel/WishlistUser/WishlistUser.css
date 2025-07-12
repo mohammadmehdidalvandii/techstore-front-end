@@ -1,0 +1,55 @@
+.wishlistUser{
+    display: block;
+    width: 100%;
+}
+.wishlistUser .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.wishlistUsers_items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px , 1fr));
+    gap: 1rem;
+}
+
+.wishlistUsers_items .item{
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: var(--light-bg);    
+}
+.wishlistUsers_items .img{
+    display: block;
+    width: 100%;
+}
+.wishlistUsers_items .content{
+    display: block;
+    width: 100%;
+    margin: 0.5rem;
+}
+.wishlistUsers_items .name{
+    display: block;
+    font-family: var(--font-rubikMedium);
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.wishlistUsers_items .price{
+    display: block;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
+    margin-top: 0.5rem;
+}
+.wishlistUsers_items .button_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.wishlistUsers_items .btn{
+    text-transform: lowercase;
+    width: 100px;
+    height: 2rem;
+}   
