@@ -1,0 +1,49 @@
+.paymentList{
+    display: block;
+    width: 100%;
+}
+.paymentList .title_addCart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paymentList .title_addCart .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.paymentList_items{
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+}
+.paymentList_items .item{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0.5rem;
+    background-color: var(--light-bg);
+}
+.paymentList_items .item .content{
+    display: block;
+}
+.paymentList_items .title{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.paymentList_items .expires{
+    display: block;
+    font-size: 1rem;
+    color: var(--gray);
+}
+.paymentList_items .buttons{
+    display: block;
+}
+.paymentList_items .btn{
+    width: 90px;
+    height: 2rem;
+    margin-top: 0.2rem;
+    text-transform: lowercase;
+}
