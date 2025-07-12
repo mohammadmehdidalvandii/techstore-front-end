@@ -27,7 +27,7 @@ const UserPanelNav:React.FC = ()=>{
                 <Link to='/UserPanel/Payment' className='link'>Payment Methods</Link>
             </li>
             <li>
-                <Link to='/UserPanel/Setting' className='link'>Setting</Link>
+                <Link to='/UserPanel/Settings' className='link'>Setting</Link>
             </li>
         </ul>
     </div>
