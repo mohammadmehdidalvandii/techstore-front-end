@@ -1,0 +1,10 @@
+.accentSetting{
+    display: block;
+    width: 100%;
+}
+.accentSetting .title{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
