@@ -11,6 +11,7 @@ import UserPanel from "@page/User-panel/User-panel";
 import Orders from "@page/User-panel/Orders";
 import Wishlist from "@page/User-panel/Wishlist";
 import Address from "@page/User-panel/Address";
+import Payment from "@page/User-panel/Payment";
 
 const routes = [
     {path:'/' , element:<Home/>},
@@ -26,6 +27,7 @@ const routes = [
     {path:'/UserPanel/Orders' , element:<Orders/>}, 
     {path:'/UserPanel/Wishlist' , element:<Wishlist/>}, 
     {path:'/UserPanel/Address' , element:<Address/>}, 
+    {path:'/UserPanel/Payment' , element:<Payment/>}, 
 ]
 
 export default routes
