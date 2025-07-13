@@ -7,12 +7,16 @@ import Register from "@page/Register/Register";
 import About from "@page/About/About";
 import Deals from "@page/Deals/Deals";
 import Categories from "@page/Categories/Categories";
+//  User Panel
 import UserPanel from "@page/User-panel/User-panel";
 import Orders from "@page/User-panel/Orders";
 import Wishlist from "@page/User-panel/Wishlist";
 import Address from "@page/User-panel/Address";
 import Payment from "@page/User-panel/Payment";
 import Settings from "@page/User-panel/Settings";
+// Admin Panel
+import Admin from "@page/Admin/Admin";
+
 
 const routes = [
     {path:'/' , element:<Home/>},
@@ -29,7 +33,8 @@ const routes = [
     {path:'/UserPanel/Wishlist' , element:<Wishlist/>}, 
     {path:'/UserPanel/Address' , element:<Address/>}, 
     {path:'/UserPanel/Payment' , element:<Payment/>}, 
-    {path:'/UserPanel/Settings' , element:<Settings/>}, 
+    {path:'/UserPanel/Settings' , element:<Settings/>},
+    {path:'/Admin' , element:<Admin/>} 
 ]
 
 export default routes

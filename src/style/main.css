@@ -193,6 +193,26 @@ body{
 .userPanel_content{
     flex-basis: 75%;
 }
+
+/* grid system Admin panel  */
+.container_admin{
+    display: flex;
+    background-color: var(--light-bg);
+}
+.admin_sidebar{
+    display: block;
+    flex-basis: 18%;
+    background-color: var(--white);
+    border-right: 1px solid var(--gray);
+    height: 100dvh;
+    position: sticky;
+}
+.admin_content{
+    flex-basis: 82%;
+    margin: 1rem;
+}
+
+
 /* Table */
 table {
     width: 100%;
