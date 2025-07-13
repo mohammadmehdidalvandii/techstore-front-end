@@ -1,0 +1,44 @@
+.sidebar{
+    display: block;
+    margin: 2rem 1rem;
+}
+.sidebar_wrapper{
+    display: block;
+    width: 100%;
+}
+.sidebar_items{
+    display: block;
+}
+.sidebar_items .item{
+    display:block;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.sidebar_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    font-family: var(--font-rubikBold);
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--text-color);
+    transition: all 0.4s linear;
+    &:hover{
+        color: var(--primary-color);
+    }
+}
+ .sidebar_link_active{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.sidebar_link span{
+    font-size: 1.2rem;
+}
