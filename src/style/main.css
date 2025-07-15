@@ -243,7 +243,27 @@ td {
     font-size: 0.9rem;
     font-weight: 700;
 }
-
+/* title and link admin */
+.title_link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title_link .title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 1.5rem
+}
+.title_link .link{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: var(--secondary-color);
+    transition: all 0.4s linear;
+    &:hover{
+        color: var(--primary-color);
+    }
+}
 /* Responsive  Utilities*/
 
 @media (max-width : 1360px) {
