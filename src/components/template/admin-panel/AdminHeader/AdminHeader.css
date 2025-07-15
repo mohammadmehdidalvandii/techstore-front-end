@@ -1,0 +1,51 @@
+.adminHeader{
+    display: block;
+    width: 100%;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--gray);
+    border-radius: 0.5rem;
+}
+.adminHeader .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.adminHeader_title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+.adminHeader .name_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.adminHeader .name{
+    display: block;
+    font-family: var(--font-rubikBold);
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: var(--text-color);
+}
+.adminHeader .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    background-color: unset;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    &:hover{
+        background-color: var(--secondary-color);
+        color: var(--white);
+    }
+}
