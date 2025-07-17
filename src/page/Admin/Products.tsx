@@ -2,7 +2,7 @@ import AdminHeader from '@components/template/admin-panel/AdminHeader/AdminHeade
 import Sidebar from '@components/template/admin-panel/Sidebar/Sidebar'
 import React from 'react'
 
-function Products() {
+const Products:React.FC = ()=>{
   return (
      <div className="container_admin">
         <div className="admin_sidebar">
