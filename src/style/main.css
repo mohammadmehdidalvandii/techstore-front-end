@@ -204,8 +204,7 @@ body{
     flex-basis: 18%;
     background-color: var(--white);
     border-right: 1px solid var(--gray);
-    height: 100dvh;
-    position: sticky;
+    height: 100vh;
 }
 .admin_content{
     flex-basis: 82%;
