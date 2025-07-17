@@ -28,7 +28,7 @@ const Sidebar:React.FC = ()=>{
                     </NavLink>
                 </li>
                 <li className="item">
-                    <NavLink to='/Admin/' className='sidebar_link'>
+                    <NavLink to='/Admin/Customers' className='sidebar_link'>
                         <span className="icon"><FaUsers/></span>
                         <span className="text">Customers</span>
                     </NavLink>
