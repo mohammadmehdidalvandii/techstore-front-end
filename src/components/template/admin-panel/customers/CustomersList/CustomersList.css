@@ -1,0 +1,21 @@
+.customerList{
+    display: block;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-block: 3rem  ;
+}
+.customerList table{
+    background-color: #efefef;
+    border-radius: 0.3rem;
+}
+.customerList .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.customerList .btn{
+    width: 100%;
+}
