@@ -264,6 +264,33 @@ td {
         color: var(--primary-color);
     }
 }
+/* Admin Management style */
+.management{
+    display: block;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+.management .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.management .title{
+    display: block;
+    font-family: var(--font-rubikBlack);
+    font-size: 1.5rem;
+}
+.management .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: lowercase;
+}
 /* Responsive  Utilities*/
 
 @media (max-width : 1360px) {
