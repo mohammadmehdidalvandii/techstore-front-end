@@ -1,4 +1,5 @@
 import AdminHeader from '@components/template/admin-panel/AdminHeader/AdminHeader'
+import OrdersList from '@components/template/admin-panel/orders/OrdersList/OrdersList'
 import OrdersManagement from '@components/template/admin-panel/orders/OrdersManagement/OrdersManagement'
 import Sidebar from '@components/template/admin-panel/Sidebar/Sidebar'
 import React from 'react'
@@ -11,7 +12,8 @@ const Orders:React.FC = ()=>{
         </div>
         <div className="admin_content">
           <AdminHeader/>
-        <OrdersManagement/>        
+        <OrdersManagement/>
+        <OrdersList/>        
         </div>
     </div>
   )

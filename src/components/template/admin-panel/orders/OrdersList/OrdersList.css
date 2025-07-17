@@ -1,0 +1,21 @@
+.orderList{
+    display: block;
+    width: 100%;
+    margin-block: 3rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.orderList table{
+    background-color: #ededed;
+    border-radius: 0.3rem;
+}
+.orderList .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem   ;
+}
+.orderList .btn{
+    width: 100%;
+}
