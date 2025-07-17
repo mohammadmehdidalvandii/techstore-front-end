@@ -16,6 +16,7 @@ import Payment from "@page/User-panel/Payment";
 import Settings from "@page/User-panel/Settings";
 // Admin Panel
 import Admin from "@page/Admin/Admin";
+import AdminProducts from "@page/Admin/Products";
 
 
 const routes = [
@@ -34,7 +35,8 @@ const routes = [
     {path:'/UserPanel/Address' , element:<Address/>}, 
     {path:'/UserPanel/Payment' , element:<Payment/>}, 
     {path:'/UserPanel/Settings' , element:<Settings/>},
-    {path:'/Admin' , element:<Admin/>} 
+    {path:'/Admin' , element:<Admin/>},
+    {path:'/Admin/Products' , element:<AdminProducts/>},
 ]
 
 export default routes
