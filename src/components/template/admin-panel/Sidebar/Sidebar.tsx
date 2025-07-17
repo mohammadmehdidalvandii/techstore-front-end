@@ -22,7 +22,7 @@ const Sidebar:React.FC = ()=>{
                     </NavLink>
                 </li>
                 <li className="item">
-                    <NavLink to='/Admin/' className='sidebar_link'>
+                    <NavLink to='/Admin/Orders' className='sidebar_link'>
                         <span className="icon"><FaShoppingCart/></span>
                         <span className="text">Orders</span>
                     </NavLink>

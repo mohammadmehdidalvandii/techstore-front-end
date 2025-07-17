@@ -17,6 +17,7 @@ import Settings from "@page/User-panel/Settings";
 // Admin Panel
 import Admin from "@page/Admin/Admin";
 import AdminProducts from "@page/Admin/Products";
+import AdminOrders from '@page/Admin/Orders';
 
 
 const routes = [
@@ -37,6 +38,7 @@ const routes = [
     {path:'/UserPanel/Settings' , element:<Settings/>},
     {path:'/Admin' , element:<Admin/>},
     {path:'/Admin/Products' , element:<AdminProducts/>},
+    {path:'/Admin/Orders' , element:<AdminOrders/>},
 ]
 
 export default routes
